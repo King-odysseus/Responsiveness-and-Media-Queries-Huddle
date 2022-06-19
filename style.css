@@ -1,6 +1,35 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: poppins;
+  src: url(https://fonts.google.com/specimen/Poppins);
+  font-weight: 600px;
+}
+@font-face {
+  font-family: opensans;
+  src: url(https://fonts.google.com/specimen/Open+Sans);
+  font-weight: 600px;
+}
+
+.navbar {
+  margin: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-section {
+  display: flex;
+}
+
+h1 {
+  font-family: poppins;
+}
+
 body {
   background-image: url("images/bg-hero-desktop.svg");
 }
@@ -25,5 +54,17 @@ body {
 
 .footer {
   background-color: black;
+  color: white;
+}
+
+.btn2 {
+  background-color: hsl(322, 100%, 66%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  font-family: opensans;
   color: white;
 }
