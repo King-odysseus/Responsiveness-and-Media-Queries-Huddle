@@ -9,7 +9,13 @@
 .content {
   margin: 100px;
 }
-
+.content2 {
+  margin: 100px;
+}
+.flowing {
+  margin: 100px;
+  padding-top: 50px;
+}
 h1 {
   font-family: poppins;
 }
@@ -17,7 +23,9 @@ h1 {
 body {
   background-image: url("images/bg-hero-desktop.svg");
 }
-
+.grow {
+  margin: 40px;
+}
 .btn-nav {
   float: right;
   padding-left: 30px;
