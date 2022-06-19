@@ -2,28 +2,12 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: poppins;
-  src: url(https://fonts.google.com/specimen/Poppins);
-  font-weight: 600px;
-}
-@font-face {
-  font-family: opensans;
-  src: url(https://fonts.google.com/specimen/Open+Sans);
-  font-weight: 600px;
-}
-
 .navbar {
   margin: 40px;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
-
-.first-section {
-  display: flex;
+.content {
+  margin: 100px;
 }
 
 h1 {
@@ -47,7 +31,19 @@ body {
 .mockup {
   width: 400px;
   height: 300px;
+  float: right;
 }
+.grow2 {
+  width: 400px;
+  height: 300px;
+  float: right;
+}
+.flow {
+  width: 400px;
+  height: 300px;
+  float: left;
+}
+
 .bg2 {
   background-color: rgb(255, 255, 255);
 }
